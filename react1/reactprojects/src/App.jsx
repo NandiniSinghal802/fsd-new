@@ -15,3 +15,16 @@ const App = () => {
 };
 
 export default App;
+import {browerrouter,link,routes,route}from 'react-router-dom'
+function home(){
+  return <h1>this is my home page</h1>
+}
+function about(){
+  return <h1>this is my about page</h1>
+}
+function phone(){
+  return <h1>this is my phone page</h1> 
+}
+<routes>
+  <route path='/'element
+</routes>
